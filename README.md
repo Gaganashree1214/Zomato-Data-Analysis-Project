@@ -1,8 +1,33 @@
-readme_content = """
 # Zomato Data Analysis Using Python
 
 ## Project Overview
 This project analyzes restaurant data to understand patterns in pricing, ratings, and restaurant services.
+
+## Project Workflow
+- Data Collection
+Imported the Zomato restaurant dataset into Google Colab.
+
+- Data Cleaning
+Removed missing values
+Converted rating column to numeric
+Cleaned approx_cost(for two people) column
+Removed unnecessary columns
+
+- Data Exploration
+Checked restaurant types
+Analyzed online order and table booking availability
+Studied rating and cost distribution
+
+- Data Visualization
+Count plots
+Histograms
+Scatter plots
+Heatmap
+
+- Insights Generation
+Identified pricing patterns
+Studied popularity using votes
+Analyzed relationship between cost and ratings
 
 ## Dataset
 The dataset contains information about restaurants such as:
@@ -51,9 +76,3 @@ Total records: 148
 
 ## Conclusion
 This project demonstrates how exploratory data analysis can help understand restaurant trends and customer preferences.
-"""
-
-with open("README.md", "w") as f:
-    f.write(readme_content)
-
-print("README.md file created successfully!")
